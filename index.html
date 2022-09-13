@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  >
+
 <head>
-    <style>
+    <style  >
+        body{
+            background-color: black;
+        }
+        
         img {
-            width: 100px;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
             float: left;
-            
+            position: fixed; top: 80px; left: 150px;
+
             
         }
         .name{
@@ -14,16 +22,24 @@
 
         }
         .github {
+            
             border-radius: 5px;
-            width: 100px;
+            width: 200px;
             height: 30px;
-            border: none;
-            background-color: rgba(159, 7, 7, 0.833);
+            border: 0.5x;
+            background-color: rgba(75, 73, 73, 0.833);
             color: white;
-            position:fixed; left:5px; bottom: 550px;
+            position:fixed; top: 500px; left: 200px;
             cursor: pointer;
             font-size: large;
             font-weight: bold;
+            box-shadow: 0 1px 15px red;
+            transition-duration: 0.4s;
+            border-color: rgba(75, 73, 73, 0.833);
+        }
+        .github:hover{
+            border-color: rgb(153, 219, 236);
+            
         }
         .linkedin{
             border-radius: 5px;
@@ -37,26 +53,25 @@
             font-size: large;
             font-weight: bold;
         }
+        h2{
+            color: white;
+            position: fixed; top: 375px; left: 150px;
+        }
+        h3{
+            color: #d1cdc8;
+            position: fixed; top: 410px; left: 150px;
+        }
         
     </style>
     <title>AbidQadir</title>
     
 </head>
-<body>
-    
+<body >
+   
     <img src="image/abid.jpg" alt="">
-    
-
- <!-- <div class = "name"> 
-    <P> i am software engineer </P>
-    
-    <button> <a href = "https://github.com/abidqadir">  github  </button>
-    
-    
-     
-    </div> -->
-
-    <!--<button > <a href ="https://www.youtube.com/"> </a>  SUBSCRIBE </button> -->
+    <h2>Abid Qadir</h2>
+    <h3>abidqadir</h3>
+ 
     <button class=" github" onclick="window.open('https://github.com/abidqadir')"   >github</button>
     <button class=" linkedin" onclick="window.open('https://www.linkedin.com/in/abidqadir/')"   >linkedin</button>
 </body>
