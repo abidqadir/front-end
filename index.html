@@ -3,8 +3,74 @@
 
 <head>
     <style  >
-
         
+        body{
+            background: #111;
+            overflow-x: scroll;
+            width: 300px; height: 180;
+            
+        }
+        header
+        {
+            position: fixed;
+            top: 0; left: 0;
+            z-index: 1000;
+            height: 100%;
+            width: 560px;
+            background: #1a1a1a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column;
+            text-align: center;
+
+        }
+        header .user img
+        {
+         position: fixed; left: 4rem; top: 6rem;
+         height: 17rem;
+         width: 17rem;
+         border-radius: 50%;
+         
+         margin-bottom: 1rem;
+         border: .7rem solid var(--yellow) 
+         
+        }
+          header .user .name 
+          {
+            position: fixed;  top: 23rem; left: 5rem;
+            font-size: 2rem;
+            color: white;
+          }
+          header .user .post 
+          {
+            position: fixed;top: 25.5rem; left: 5rem;
+            font-size: 1.5rem;
+            color: white;
+          }
+
+          header .navbar {
+            width: 70%;
+          }
+
+          header .navbar ul {
+            list-style: none;
+            padding: 1rem 3rem;
+          }
+
+          header .navbar ul li a 
+          {
+            display: block;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            background: #333;
+            color: white;
+            font-size: 2rem;
+            border-radius: 5rem;
+          }
+          
+
+        /*
         .Overview
         {
             color: rgb(11, 12, 12);
@@ -34,16 +100,8 @@
             position: fixed; left: 870px; top: 50px;
             margin-right: 8px;
         }
-        img {
-            height: 300px;
-            width: 300px;
-            border-radius: 50%;
-            float: left;
-            position: fixed; top: 80px; left: 150px;
-
-            
-        }
-        
+        */
+    
         .github {
             
             border-radius: 5px;
@@ -79,45 +137,37 @@
             font-size: large;
             font-weight: bold;
         }
-        h2{
-            color: rgb(10, 6, 6);
-            position: fixed; top: 375px; left: 150px;
-        }
-        h3{
-            color: #0c0b0a;
-            position: fixed; top: 410px; left: 150px;
-        }
-        .uprnav {
-        background-color: black;
-        }
-      
+        
     </style>
+
     <title>AbidQadir</title>
     
 </head>
 <body >
-    <div>
+    <header>
+    <div class="user">
         
         <img src="image/abid.jpg" alt="">
-        <h2>Abid Qadir</h2>
-        <h3>abidqadir</h3>
-        
-        
+        <h2 class="name">Abid Qadir</h2>
+        <p class="post" > Front-end Developer </p>
+       
     </div>
+    <nav class="navbar" >
+        <ul> 
+            <li> <a  href=" HOME " >HOME</a> </li>
+            <li> <a  href=" About "></a> About </li>
+            <li> <a  href="Education " >Education</a> </li>
+            <li> <a  href=" contact ">contact</a> </li>
+             
+        </ul>
+    </nav>
+</header>
 
-    <div class="uprnav">
-    <a class="Overview" href="" >Overview</a>
-    <a class="Repository" href="">Repository</a>
-    <a class="Project" href="" >Project</a>
-    <a class="Package" href="">Package</a>
-    </div>
+    <!-- <button class=" github" onclick="window.open('https://github.com/abidqadir')"   >github</button> -->
+    
+    <!--<button class=" linkedin" onclick="window.open('https://www.linkedin.com/in/abidqadir/')"   >linkedin</button> -->
 
-
-   
- 
-    <button class=" github" onclick="window.open('https://github.com/abidqadir')"   >github</button>
-    <button class=" linkedin" onclick="window.open('https://www.linkedin.com/in/abidqadir/')"   >linkedin</button>
+    
 </body>
-
 
 </html>
