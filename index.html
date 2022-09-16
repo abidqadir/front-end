@@ -2,12 +2,17 @@
 <html lang="en"  >
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style  >
-        
+        html
+         {
+            scrollbar-width: normal;
+         }
+         
         body{
             background: #111;
-            overflow-x: scroll;
-            width: 300px; height: 180;
+            overflow-x: hidden;
+            
             
         }
         header
@@ -16,7 +21,7 @@
             top: 0; left: 0;
             z-index: 1000;
             height: 100%;
-            width: 560px;
+            width: 35rem ;
             background: #1a1a1a;
             display: flex;
             align-items: center;
@@ -27,7 +32,7 @@
         }
         header .user img
         {
-         position: fixed; left: 4rem; top: 6rem;
+         
          height: 17rem;
          width: 17rem;
          border-radius: 50%;
@@ -38,22 +43,24 @@
         }
           header .user .name 
           {
-            position: fixed;  top: 23rem; left: 5rem;
+            
             font-size: 2rem;
             color: white;
           }
           header .user .post 
           {
-            position: fixed;top: 25.5rem; left: 5rem;
+            
             font-size: 1.5rem;
             color: white;
           }
 
           header .navbar {
-            width: 70%;
+            
+            width: 100%;
           }
 
           header .navbar ul {
+            position: fixed;
             list-style: none;
             padding: 1rem 3rem;
           }
@@ -137,7 +144,11 @@
             font-size: large;
             font-weight: bold;
         }
-        
+        header .navbar :hover
+        {
+            background: yellow;
+        }
+
     </style>
 
     <title>AbidQadir</title>
@@ -149,15 +160,15 @@
         
         <img src="image/abid.jpg" alt="">
         <h2 class="name">Abid Qadir</h2>
-        <p class="post" > Front-end Developer </p>
+        <p class="post"> Front-end Developer </p>
        
     </div>
     <nav class="navbar" >
         <ul> 
-            <li> <a  href=" HOME " >HOME</a> </li>
-            <li> <a  href=" About "></a> About </li>
+            <li> <a  href=" Home " >Home</a> </li>
+            <li> <a  href="About " >About</a> </li>
             <li> <a  href="Education " >Education</a> </li>
-            <li> <a  href=" contact ">contact</a> </li>
+            <li> <a  href=" Contact ">Contact</a> </li>
              
         </ul>
     </nav>
@@ -166,7 +177,7 @@
     <!-- <button class=" github" onclick="window.open('https://github.com/abidqadir')"   >github</button> -->
     
     <!--<button class=" linkedin" onclick="window.open('https://www.linkedin.com/in/abidqadir/')"   >linkedin</button> -->
-
+    
     
 </body>
 
