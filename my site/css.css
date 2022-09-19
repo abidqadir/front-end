@@ -1,4 +1,34 @@
+
+body{
+    margin: 0;
+}
+
+
 div
 {
+    width: 200px;
+    height: 200px;
     background-color: #E4F9F5;
+    border:solid 10px;
+    padding: 20px;
+}
+
+.middle
+{
+    
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border:solid 20px;
+    margin-left: 260px;
+}
+
+.bottom
+{
+    background-color: lightskyblue;
+    width: 200px;
+    height: 200px;
+    border:solid 10px;
+    margin-left: 540px;
+    
 }
