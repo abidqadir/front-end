@@ -1,6 +1,9 @@
 
-body
+body div
 {
+    justify-content: center;
+    display: flex;
+    height: 100vh;
     
 }
 .pencil img
@@ -12,7 +15,7 @@ body
 .top
 
 {
-    text-align: center;
+    
     width: 200px;
     height: 200px;
     background-color: #070c0b;
