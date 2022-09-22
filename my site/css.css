@@ -1,5 +1,8 @@
 
-
+body
+{
+    
+}
 .pencil img
 {
     
@@ -9,6 +12,7 @@
 .top
 
 {
+    text-align: center;
     width: 200px;
     height: 200px;
     background-color: #070c0b;
