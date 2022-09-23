@@ -1,18 +1,19 @@
 
-body div
+body 
 {
-    justify-content: center;
-    display: flex;
-    height: 100vh;
-    
+text-align: center;
 }
-.pencil img
+.main{
+    display: flex;
+}
+
+.main .pencil img
 {
-    
+    margin: 0 auto 0 auto;
     height: 300px;
     width: 300px;
 }
-.top
+.main .top
 
 {
     
@@ -25,24 +26,23 @@ body div
     
 }
 
-.middle
+.main .middle
 {
     
     background-color: red;
     width: 200px;
     height: 200px;
     position: absolute;
-    left: 208px;
-    top: 208px;
+   
     
 }
 
-.bottom
+.main .bottom
 {
     background-color: lightskyblue;
     width: 200px;
     height: 200px;
     position: absolute;
-    left: 408px;top: 408px;
+    
     
 }
