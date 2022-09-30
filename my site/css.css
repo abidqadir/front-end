@@ -2,6 +2,7 @@ body
 {
 margin: 0px;
 height: 100vh;
+background-color: rgb(92, 128, 116);
 }
 
 #body-header 
@@ -60,3 +61,58 @@ height: 100vh;
   margin-bottom: 0.5rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.social-icon li a i 
+{
+  font-size: 25px;
+  padding: 10px;
+}
+.social-icon li a i:hover
+{
+  box-shadow: 0px 0px 4px 2px rgb(235, 111, 111);
+}
+
+
+
+#myimg 
+{ 
+  
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+  margin-top: 7vh;
+  
+}
+ #myimg img 
+ {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 50% ;
+ }
+ 
+ .About 
+ {
+  text-align: center;
+  margin-top: 10rem;
+  
+
+  }
+  .About .p1
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 2.75rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .About .p2
+  {
+    font-size: 2.75rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    
+  }
