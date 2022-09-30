@@ -1,0 +1,60 @@
+body 
+{
+margin: 0px;
+height: 100vh;
+}
+
+#body-header 
+{
+  height: 60vh;
+  background-image: url(abcc.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  background-attachment: fixed;
+}
+
+ .horizental-list
+{
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 15px;
+  text-align: center;
+  margin: 0px;
+  
+  
+}
+
+ .horizental-list li {
+  display: inline;
+  padding: 8px;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  
+
+}
+
+.horizental-list li a {
+  color: rgb(247, 243, 243);
+  text-decoration: none
+  
+  
+  
+}
+.horizental-list li a:hover
+{
+  color: rgb(115, 111, 111);
+  
+  text-decoration: dashed;
+}
+
+#myname
+{
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  margin-bottom: 0.5rem;
+}
