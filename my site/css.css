@@ -117,16 +117,16 @@ height: 100vh;
     height: 75vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
    }
 
    section:nth-child(2n)
    {
-    background-color: gray;
+    background-color: white;
    }
    section:nth-child(2n+1)
    {
-    background-color: rgb(247, 240, 240);
+    background-color: #9e9b9b29;
    }
 
    .Heading-section
@@ -135,16 +135,40 @@ height: 100vh;
     text-align: center;
     font-size: 40px;
    }
-/*
-   #skill-display
-   {
-    width: 70%;
-    height: 100px;
-    border:2px solid black;
-    
-   }
-   */
-   #Skill
-   {
-    background-color: rgb(218, 179, 184);
-   }
+  
+  
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  margin-left: 3rem;
+  
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {
+
+  width: 90%;
+  background-color: #04AA6D;
+  margin-left: 3rem;
+
+} 
+/* Green */
+.css {width: 80%; background-color: #2196F3;} 
+/* Blue */
+.js {width: 65%; background-color: #f44336;} 
+/* Red */
+.php {width: 60%; background-color: #808080;} 
+/* Dark Grey */
+  
+  
+  
+  
+  
