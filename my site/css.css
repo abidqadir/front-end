@@ -1,19 +1,21 @@
 body 
 {
+  
 margin: 0px;
 height: 100vh;
+
 
 }
 
 #body-header 
 {
-  width: 100%;
+  width: 100rem;
   height: 60vh;
   background-image: url(abcc.jpg);
   background-size: cover;
   background-position: center;
   opacity: 0.9;
-  display: wrap;
+  
   
 }
 
@@ -122,6 +124,12 @@ height: 100vh;
     
    }
 
+   .About
+   {
+    background-color: #dee2e6;
+    opacity: 1;
+   }
+/*
    section:nth-child(2n)
    {
     background-color: white;
@@ -130,6 +138,7 @@ height: 100vh;
    {
     background-color: #9e9b9b29;
    }
+   */
 
    .Heading-section
    {
